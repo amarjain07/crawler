@@ -13,4 +13,9 @@
  node index.js https://medium.com
 ```
 
+## With Async Library
+```
+ node with_async.js https://medium.com
+```
+
 ### All the links are stored as `crawler.csv` file located in the same folder.

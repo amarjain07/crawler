@@ -50,14 +50,13 @@ const callback = links => {
 	}
 }
 
-
-allLinks.push(url)
 if(!process.argv[2]){
 	console.log("Please pass the url to be crawled as an argument")
 	process.exit()
 	return
 }
 url = process.argv[2]
+allLinks.push(url)
 
 crawlLink(url, links => {
 	console.log("<<-----", received)
